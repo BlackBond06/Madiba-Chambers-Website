@@ -352,7 +352,7 @@ nav {
   position: relative;
   width: 100vw;
   max-width: 100%;
-  margin-top: 45rem;
+ 
 
   .portfolio {
     margin-top: 7rem;
@@ -541,7 +541,6 @@ nav {
       margin: 0 auto;
       text-align: center;
       color: #cad2c5;
-      font-family: "Poppins" serif;
       font-size: 1.3rem;
     }
 
@@ -1447,8 +1446,10 @@ nav {
   }
 }
 @media screen and (max-width: 560px) {
+  
   .hero .hero-container .hero-text{
     width: 95%;
+    margin-top: 10rem;
 
     p{
       text-align: left;
@@ -1509,9 +1510,13 @@ nav {
 }
 
 @media screen and (min-width: 360px) {
+  
   .hero {
-    height: auto;
+    height: 52rem;
     padding-bottom: 1rem;
+  }
+  .container{
+    margin-top: 48rem;
   }
   .container .txt-img {
     width: 90%;
@@ -1539,8 +1544,8 @@ nav {
     transform: translate(50%, -50%);
 
     h1 {
-      font-size: 1.7rem;
-      line-height: 1.9rem;
+      font-size: 1.9rem;
+      line-height: 2.5rem;
       color: #8fc460;
       margin-bottom: 2rem;
     }
@@ -1783,6 +1788,9 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
+  .container{
+    margin-top: 42rem;
+  }
   .container .inner {
     height: 100%;
   }
