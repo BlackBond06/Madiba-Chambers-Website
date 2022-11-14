@@ -1,21 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Playfair+Display:wght@500;700&family=Poppins:wght@100&family=Roboto:wght@400;500&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Merriweather&family=Mrs+Saint+Delafield&family=Oswald&family=Play:wght@400;700&family=Playfair+Display:wght@400;600;700&family=Poppins:wght@100;400&family=Nanum+Myeongjo&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Play", sans-serif;
+  font-family: var(--primary-font);
 }
 
 :root {
+  --primary-font: "Play", sans-serif;
   --primary-color: #000814;
-  --secondary-color: #8fc460;
 }
 
 html {
   scroll-behavior: smooth;
 }
-
 nav {
   max-width: 100vw;
   height: 5rem;
@@ -411,7 +412,7 @@ nav {
       h3 {
         font-size: 1.8rem;
         line-height: 1.2em;
-        font-family: "Playfair Display", serif;
+        // font-family: "Playfair Display", serif;
         font-weight: 500;
       }
 
@@ -500,7 +501,7 @@ nav {
 
       .associates_info_inner {
         width: 50%;
-        padding-top: 0.8rem;
+        padding-top: 3rem;
 
         .associate_name {
           width: 100%;
@@ -519,7 +520,7 @@ nav {
               width: 40px;
               height: 40px;
               border-radius: 50%;
-              border: 1px solid var(--secondary-color);
+              border: 1px solid#8fc460;
               display: grid;
               place-items: center;
               margin: auto;
@@ -527,9 +528,9 @@ nav {
               .fa-phone {
                 transform: rotate(90deg);
                 color: #fff;
-                text-shadow: -1px 0 var(--secondary-color),
-                  0 1px var(--secondary-color), 1px 0 var(--secondary-color),
-                  0 -1px var(--secondary-color);
+                text-shadow: -1px 0#8fc460,
+                  0 1px#8fc460, 1px 0#8fc460,
+                  0 -1px#8fc460;
               }
             }
 
@@ -537,13 +538,13 @@ nav {
               width: 40px;
               height: 40px;
               border-radius: 50%;
-              border: 1px solid var(--secondary-color);
+              border: 1px solid#8fc460;
               display: grid;
               place-items: center;
               margin: 0.8rem;
 
               .fa-plus {
-                color: var(--secondary-color);
+                color:#8fc460;
               }
             }
           }
@@ -580,7 +581,7 @@ nav {
 
   .lawyers_info > div {
     width: 600px;
-    height: 250px;
+    height: 300px;
     background: #fefefe;
   }
 
