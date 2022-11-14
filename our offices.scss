@@ -8,8 +8,8 @@
 }
 
 :root {
-  --primary-color: #03071e;
-  --secondary-color: #fb8500;
+  --primary-font: "Play", sans-serif;
+  --primary-color: #000814;
 }
 
 html {
@@ -43,7 +43,7 @@ nav {
       font-weight: 600;
 
       span {
-        color: #fb8500;
+        color: #8fcd65;
       }
     }
 
@@ -74,7 +74,7 @@ nav {
       }
 
       .custom {
-        background: #fb8500;
+        background: #8fcd65;
         padding: 29px 15px;
         transition: all 200ms ease-in-out;
       }
@@ -89,7 +89,7 @@ nav {
 
       .underline:hover {
         border-bottom: 3px solid #fff;
-        color: #fb8500;
+        color: #8fcd65;
       }
 
       li:hover .hist-drop,
@@ -135,7 +135,7 @@ nav {
         }
 
         li a:hover {
-          color: #fb8500;
+          color: #8fcd65;
         }
       }
 
@@ -161,7 +161,7 @@ nav {
         }
 
         li a:hover {
-          color: #fb8500;
+          color: #8fcd65;
         }
       }
 
@@ -187,7 +187,7 @@ nav {
         }
 
         li a:hover {
-          color: #fb8500;
+          color: #8fcd65;
         }
       }
 
@@ -245,7 +245,7 @@ nav {
               }
 
               li a:hover {
-                color: #fb8500;
+                color: #8fcd65;
               }
             }
           }
@@ -351,13 +351,13 @@ nav {
 
           .consult_link {
             width: 150px;
-            border-bottom: 1px solid #fb8500;
+            border-bottom: 1px solid #8fc460;
           }
 
           .consult_link a {
             text-decoration: none;
             font-size: 1rem;
-            color: #fb8500;
+            color: #8fc460;
             font-family: "Playfair Display", serif;
             font-weight: 700;
           }
@@ -367,7 +367,7 @@ nav {
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            border: 1px solid #fb8500;
+            border: 1px solid #8fcd65;
             margin-left: -1.4rem;
           }
         }
@@ -382,25 +382,27 @@ nav {
         height: 2.5rem;
         padding-left: 0.5rem;
         color: #fff;
-        background: #1d213d;
+        background: #010d1e;
       }
 
       #message {
         width: 100%;
         padding: 0.5rem;
-        background: #1d213d;
+        background: #010d1e;
         color: #fff;
       }
 
       button {
+        margin-top: 2rem;
+        outline: none;
         float: right;
         cursor: pointer;
-        width: 5rem;
-        height: 3rem;
+        padding: 1rem 2rem;
         color: #fff;
+        border-radius: 10px;
         background: #1d213d;
-        font-family: "Playfair Display", serif;
-        font-weight: 700;
+        // font-family: "Playfair Display", serif;
+        // font-weight: 700;
         border: none;
       }
 
@@ -486,7 +488,7 @@ nav {
         }
 
         .contact-info #margin {
-          margin-bottom: .4rem;
+          margin-bottom: 0.4rem;
         }
 
         #map iframe {
