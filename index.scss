@@ -47,7 +47,7 @@ nav {
       font-weight: 600;
 
       span {
-        color: #8fc460;
+        color: gold;
       }
     }
 
@@ -78,7 +78,7 @@ nav {
       }
 
       .custom {
-        background: #8fc460;
+        background: gold;
         padding: 29px 15px;
         transition: all 200ms ease-in-out;
       }
@@ -93,7 +93,7 @@ nav {
 
       .underline:hover {
         border-bottom: 3px solid #fff;
-        color: #8fc460;
+        color: gold;
       }
 
       li:hover .hist-drop,
@@ -139,7 +139,7 @@ nav {
         }
 
         li a:hover {
-          color: #8fc460;
+          color: gold;
         }
       }
 
@@ -165,7 +165,7 @@ nav {
         }
 
         li a:hover {
-          color: #8fc460;
+          color: gold;
         }
       }
 
@@ -191,7 +191,7 @@ nav {
         }
 
         li a:hover {
-          color: #8fc460;
+          color: gold;
         }
       }
 
@@ -249,7 +249,7 @@ nav {
               }
 
               li a:hover {
-                color: #8fc460;
+                color: gold;
               }
             }
           }
@@ -461,7 +461,7 @@ nav {
 
       .accordion-pg i {
         padding: 0.5rem;
-        color: #8fc460;
+        color: gold;
       }
 
       .fa-minus {
@@ -489,7 +489,7 @@ nav {
         position: absolute;
         width: 0.6rem;
         height: 90%;
-        background: #8fc460;
+        background: gold;
         top: 50%;
         left: 0;
         transform: translateY(-50%);
@@ -694,9 +694,9 @@ nav {
         button {
           width: 20rem;
           height: 4rem;
-          color: #8fc460;
+          color: gold;
           background: transparent;
-          border: 1px solid #8fc460;
+          border: 1px solid gold;
           font-weight: bolder;
           font-size: 1rem;
         }
@@ -1009,7 +1009,7 @@ nav {
           text-decoration: none;
           color: #fefefe;
           padding: 0.5rem 1rem;
-          background: #8fc460;
+          background: gold;
           transition: 0.3s ease;
           border-radius: 5px;
         }
@@ -1526,7 +1526,7 @@ nav {
     margin: 0 auto;
     min-height: 20rem;
     background: 001219;
-    border: 1px solid #8fc460;
+    border: 1px solid #6c757d;
     border-radius: 10px;
     box-shadow: 0.5px 2px 0.5px rgba(255, 255, 255, 0.2);
   }
@@ -1536,6 +1536,7 @@ nav {
     line-height: 0.7rem;
     background: url(./visions/banner.jpg) center/cover no-repeat;
     background-attachment: fixed;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
   }
@@ -1549,15 +1550,16 @@ nav {
     h1 {
       font-size: 1.9rem;
       line-height: 2.5rem;
-      color: #8fc460;
+      color: #6c757d;
       margin-bottom: 2rem;
     }
 
     a {
       padding: 0.8rem 1.5rem;
       text-decoration: none;
-      color: #8fc460;
-      border: 1px solid #8fc460;
+      color: #cad2c5;
+      background: #212838;
+      border: 1px solid #6c757d;
       border-radius: 5px;
       z-index: 2;
     }
