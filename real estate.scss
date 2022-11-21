@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--primary-font);
 }
 
 :root {
@@ -302,7 +303,6 @@ nav {
     h1 {
       color: #fff;
       font-size: 2rem;
-
       font-weight: bold;
       margin-top: 1rem;
     }
@@ -389,7 +389,7 @@ nav {
         font-size: 1.8rem;
         line-height: 1.2em;
         font-weight: 700;
-        font-family: var(--primary-color);
+        // font-family: "Poppins" sans-serif;
       }
 
       p {
@@ -1406,7 +1406,7 @@ nav {
   }
 
   .services_list {
-    height: 145rem;
+    height: 94rem;
 
     .list_header {
       width: 100%;
@@ -1513,7 +1513,6 @@ nav {
   }
 
   .services_list {
-    height: 125rem;
 
     .description .more_info .type_of_service {
       padding-left: 1rem;
