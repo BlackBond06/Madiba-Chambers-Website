@@ -4,12 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Play", sans-serif;;
 }
 
 :root {
   --primary-color: #000814;
   --primary-font: "Play", sans-serif;
-  --secondary-color: #8fc460;
+  --secondary-color: gold;
 }
 
 html {
@@ -38,7 +39,7 @@ nav {
       font-weight: 600;
 
       span {
-        color: #8fc460;
+        color: gold;
       }
     }
 
@@ -69,7 +70,7 @@ nav {
       }
 
       .custom {
-        background: #8fc460;
+        background: gold;
         padding: 29px 15px;
         transition: all 200ms ease-in-out;
       }
@@ -84,7 +85,7 @@ nav {
 
       .underline:hover {
         border-bottom: 3px solid #fff;
-        color: #8fc460;
+        color: gold;
       }
 
       li:hover .hist-drop,
@@ -130,7 +131,7 @@ nav {
         }
 
         li a:hover {
-          color: #8fc460;
+          color: gold;
         }
       }
 
@@ -156,7 +157,7 @@ nav {
         }
 
         li a:hover {
-          color: #8fc460;
+          color: gold;
         }
       }
 
@@ -182,7 +183,7 @@ nav {
         }
 
         li a:hover {
-          color: #8fc460;
+          color: gold;
         }
       }
 
@@ -240,7 +241,7 @@ nav {
               }
 
               li a:hover {
-                color: #8fc460;
+                color: gold;
               }
             }
           }
@@ -396,7 +397,7 @@ nav {
 
         .info_content_inner {
           width: 50%;
-          padding: 0.8rem;
+          padding: 3rem;
 
           .inner_name {
             width: 100%;
@@ -447,18 +448,7 @@ nav {
               }
             }
 
-            .license {
-              margin-top: 1rem;
-              text-align: center;
-              font-size: 0.9rem;
-              color: #6c757d;
-
-              p {
-                font-weight: bold;
-                font-size: 0.7rem;
-                margin-top: 0.5rem;
-              }
-            }
+            
 
             .primary_office {
               margin-top: 0.7rem;
@@ -531,7 +521,7 @@ nav {
 
         .associates_info_inner {
           width: 50%;
-          padding-top: 0.8rem;
+          padding-top: 3rem;
 
           .associate_name {
             width: 100%;
@@ -581,18 +571,7 @@ nav {
               }
             }
 
-            .license {
-              margin-top: 1rem;
-              color: #6c757d;
-              text-align: center;
-              font-size: 0.9rem;
-
-              p {
-                font-weight: bold;
-                font-size: 0.7rem;
-                margin-top: 0.5rem;
-              }
-            }
+           
 
             .primary_office {
               margin-top: 0.8rem;
@@ -612,8 +591,8 @@ nav {
     }
 
     .associates_info > div {
-      width: 450px;
-      height: 290px;
+      width: 600px;
+      height: 300px;
       background: #fff;
     }
 
@@ -808,7 +787,7 @@ nav {
           text-decoration: none;
           color: #fefefe;
           padding: 0.5rem 1rem;
-          background: #6c757d;
+          background: gold;
           transition: 0.3s ease;
           border-radius: 5px;
         }
