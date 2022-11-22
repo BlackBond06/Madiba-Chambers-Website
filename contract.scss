@@ -443,13 +443,14 @@ nav {
 
     .buttons {
       width: 25rem;
-      min-height: 43rem;
+      height: auto;
       display: flex;
       gap: 1rem;
       font-family: "Playfair Display", serif;
       font-weight: 700;
       flex-direction: column;
       padding-top: 5rem;
+      padding-bottom: 3rem;
       align-items: center;
       color: grey;
       background: url(./visions/law_stick.jfif) center/ cover no-repeat;

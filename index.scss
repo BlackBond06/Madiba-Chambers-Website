@@ -29,7 +29,6 @@ nav {
   max-width: 100vw;
   height: 5rem;
   line-height: 5rem;
- 
 
   .nav_content {
     position: relative;
@@ -269,7 +268,6 @@ nav {
   // End of Navigation Bar Styling
 }
 
-
 .hero {
   max-width: 100vw;
   position: absolute;
@@ -280,7 +278,6 @@ nav {
 
   .hero-container {
     width: 100%;
-    
 
     .hero-text {
       width: 60%;
@@ -294,7 +291,7 @@ nav {
 
       p {
         margin: 1rem 0.5rem 0 0;
-        text-align:center;
+        text-align: center;
         font-size: 1.5rem;
         background: rgba(0, 0, 0, 0.2);
         color: #fff;
@@ -329,21 +326,20 @@ nav {
       }
     }
   }
-
-  
 }
 
 @keyframes animate {
-  0%,100%{
+  0%,
+  100% {
     background: url(./visions/bkg1.webp) center/cover no-repeat;
   }
-  25%{
+  25% {
     background: url(./visions/boss1.jpg) center/cover no-repeat;
   }
-  50%{
+  50% {
     background: url(./visions/b-law.jpg) center/cover no-repeat;
   }
-  75%{
+  75% {
     background: url(./visions/b-law2.jpg) center/cover no-repeat;
   }
 }
@@ -352,7 +348,6 @@ nav {
   position: relative;
   width: 100vw;
   max-width: 100%;
- 
 
   .portfolio {
     margin-top: 7rem;
@@ -366,7 +361,6 @@ nav {
 
       .port-header {
         width: 100%;
-
 
         .title {
           font-family: "Playfair Display", serif;
@@ -428,7 +422,6 @@ nav {
     max-width: 80rem;
     margin: 0 auto;
     padding: 0 1.5rem;
-
 
     .accordion-title h1 {
       color: #cad2c5;
@@ -716,7 +709,6 @@ nav {
   background: grey;
 
   .team-cta {
-   
     position: relative;
     width: 100%;
     margin: 0 auto;
@@ -739,16 +731,18 @@ nav {
 
     .slider_container {
       margin-top: 3rem;
-      
 
       .swiper .swiper-wrapper .swiper-slide {
         position: relative;
         width: 400px;
 
         .image_info {
-          width: 100%;
+          width: 90%;
+          left: 50%;
+          transform: translate(-50%, -50%);
           position: absolute;
           bottom: 12px;
+          background: rgba(0, 0, 0, 0.4);
           color: #cad2c5;
           cursor: pointer;
           transition: transform, opacity 200ms ease-in-out;
@@ -1449,17 +1443,16 @@ nav {
   }
 }
 @media screen and (max-width: 560px) {
-  
-  .hero .hero-container .hero-text{
+  .hero .hero-container .hero-text {
     width: 95%;
     margin-top: 10rem;
 
-    p{
+    p {
       text-align: left;
       font-size: 1.2rem;
     }
   }
-  .container{
+  .container {
     margin-top: 26rem;
   }
   .footer .footer_content {
@@ -1513,12 +1506,11 @@ nav {
 }
 
 @media screen and (min-width: 360px) {
-  
   .hero {
     height: 52rem;
     padding-bottom: 1rem;
   }
-  .container{
+  .container {
     margin-top: 48rem;
   }
   .container .txt-img {
@@ -1793,7 +1785,7 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  .container{
+  .container {
     margin-top: 42rem;
   }
   .container .inner {
