@@ -304,23 +304,39 @@
             </p>
             <div class="form_btn_cta">
               <div class="form_btn">
-                <div class="consult_link"><a href="#">Abuja Office</a></div>
+                <div class="consult_link"><a href="our offices.html">Abuja Office</a></div>
                 <div class="consult_style"></div>
               </div>
               <div class="form_btn">
-                <div class="consult_link"><a href="#">Awka Office</a></div>
+                <div class="consult_link"><a href="our offices.html">Awka Office</a></div>
                 <div class="consult_style"></div>
               </div>
             </div>
           </div>
           <div class="form_form">
-            <form action="#">
-              <input type="text" placeholder="Full Name*">
-              <input type="text" placeholder="Email Address*">
-              <input type="text" placeholder="Phone Number*">
+            <form
+                action="https://formsubmit.co/madibachambers@gmail.com"
+                method="POST"
+              >
+              <input type="text" name="name" placeholder="Full Name*" required />
+              <input type="hidden" name="_next" value="https://ornate-genie-59b836.netlify.app/thankyou.html">
+              <input type="hidden" name="_subject" value="New Mail!">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address*"
+                required
+              />
+          
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+              <button>Submit</button>
             </form>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-            <button>Submit</button>
           </div>
         </div>
       </section>
