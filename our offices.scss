@@ -43,7 +43,7 @@ nav {
       font-weight: 600;
 
       span {
-        color: #8fcd65;
+        color: gold;
       }
     }
 
@@ -74,7 +74,7 @@ nav {
       }
 
       .custom {
-        background: #8fcd65;
+        background: gold;
         padding: 29px 15px;
         transition: all 200ms ease-in-out;
       }
@@ -89,7 +89,7 @@ nav {
 
       .underline:hover {
         border-bottom: 3px solid #fff;
-        color: #8fcd65;
+        color: gold;
       }
 
       li:hover .hist-drop,
@@ -135,7 +135,7 @@ nav {
         }
 
         li a:hover {
-          color: #8fcd65;
+          color: gold;
         }
       }
 
@@ -161,7 +161,7 @@ nav {
         }
 
         li a:hover {
-          color: #8fcd65;
+          color: gold;
         }
       }
 
@@ -187,7 +187,7 @@ nav {
         }
 
         li a:hover {
-          color: #8fcd65;
+          color: gold;
         }
       }
 
@@ -245,7 +245,7 @@ nav {
               }
 
               li a:hover {
-                color: #8fcd65;
+                color: gold;
               }
             }
           }
@@ -351,13 +351,13 @@ nav {
 
           .consult_link {
             width: 150px;
-            border-bottom: 1px solid #8fc460;
+            border-bottom: 1px solid gold;
           }
 
           .consult_link a {
             text-decoration: none;
             font-size: 1rem;
-            color: #8fc460;
+            color: gold;
             font-family: "Playfair Display", serif;
             font-weight: 700;
           }
@@ -367,7 +367,7 @@ nav {
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            border: 1px solid #8fcd65;
+            border: 1px solid gold;
             margin-left: -1.4rem;
           }
         }
@@ -401,8 +401,6 @@ nav {
         color: #fff;
         border-radius: 10px;
         background: #1d213d;
-        // font-family: "Playfair Display", serif;
-        // font-weight: 700;
         border: none;
       }
 

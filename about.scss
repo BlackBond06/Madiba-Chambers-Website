@@ -327,9 +327,8 @@ nav {
     .about_us_content_left {
       .intro_text_two p {
         font-family: "Poppins", serif;
-        font-weight: 700;
         text-align: justify;
-        margin-top: 2rem;
+        margin-top: 4rem;
         max-inline-size: 30rem;
       }
 
@@ -340,12 +339,11 @@ nav {
 
     .about_us_content_right {
       .intro_text {
-        font-size: 1.8rem;
-        font-weight: bold;
+        font-size: 2rem;
         max-inline-size: 30rem;
         border-left: 3px solid var(--secondary-color);
         padding-left: 1rem;
-        font-family: "Playfair Display", serif;
+        margin-bottom: 6.5rem;
       }
 
       .intro_img img {
@@ -1229,6 +1227,13 @@ nav {
 }
 
 @media screen and (max-width: 970px) {
+  .about_us_content{
+    padding: 3rem 1rem;
+
+    .content_container .about_us_content_right .intro_img img{
+      width: 100%;
+    }
+  }
   .footer .footer_content .office_address .branch_office {
     margin-left: 1rem;
   }
@@ -1291,12 +1296,12 @@ nav {
   .about_us_content .content_container {
     padding: 2rem;
 
-    .about_us_content_left .intro_text_two p {
-      margin-top: -5rem;
+    .about_us_content_left .intro_text_two p{
+      margin-top: -7rem;
     }
 
-    .about_us_content_right .intro_img {
-      margin-top: 2rem;
+    .about_us_content_right .intro_text {
+      margin-bottom: 3rem;
     }
   }
 
