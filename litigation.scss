@@ -36,7 +36,7 @@ nav {
       font-weight: 600;
 
       span {
-        color: #8fcd65;
+        color: gold;
       }
     }
 
@@ -67,7 +67,7 @@ nav {
       }
 
       .custom {
-        background: #8fcd65;
+        background: gold;
         padding: 29px 15px;
         transition: all 200ms ease-in-out;
       }
@@ -82,7 +82,7 @@ nav {
 
       .underline:hover {
         border-bottom: 3px solid #fff;
-        color: #8fcd65;
+        color: gold;
       }
 
       li:hover .hist-drop,
@@ -128,7 +128,7 @@ nav {
         }
 
         li a:hover {
-          color: #8fcd65;
+          color: gold;
         }
       }
 
@@ -154,7 +154,7 @@ nav {
         }
 
         li a:hover {
-          color: #8fcd65;
+          color: gold;
         }
       }
 
@@ -180,7 +180,7 @@ nav {
         }
 
         li a:hover {
-          color: #8fcd65;
+          color: gold;
         }
       }
 
@@ -238,7 +238,7 @@ nav {
               }
 
               li a:hover {
-                color: #8fcd65;
+                color: gold;
               }
             }
           }
@@ -335,13 +335,13 @@ nav {
 
         .consult_link {
           width: 200px;
-          border-bottom: 1px solid #8fcd65;
+          border-bottom: 1px solid gold;
         }
 
         .consult_link a {
           text-decoration: none;
           font-size: 1rem;
-          color: #8fcd65;
+          color: gold;
           font-weight: bold;
         }
 
@@ -350,7 +350,7 @@ nav {
           width: 50px;
           height: 50px;
           border-radius: 50%;
-          border: 1px solid #8fcd65;
+          border: 1px solid gold;
           margin-left: -1.4rem;
         }
       }
@@ -381,7 +381,6 @@ nav {
         font-weight: bold;
         text-align: justify;
         line-height: 1.3em;
-        color: #6c7579;
       }
     }
 
@@ -402,13 +401,12 @@ nav {
         margin-top: 1rem;
         font-family: "Poppins", sans-serif;
         font-weight: bold;
-        color: #6c7579;
         text-align: justify;
       }
     }
 
     .right_col .right_col_img {
-      margin-top: 3rem;
+      margin-top: 2rem;
       height: 20rem;
       width: 100%;
     }
@@ -451,13 +449,13 @@ nav {
 
       .consult_link {
         width: 200px;
-        border-bottom: 1px solid #8fc460;
+        border-bottom: 1px solid gold;
       }
 
       .consult_link a {
         text-decoration: none;
         font-size: 1rem;
-        color: #8fc460;
+        color: gold;
         font-weight: bold;
       }
 
@@ -466,7 +464,7 @@ nav {
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        border: 1px solid #8fc460;
+        border: 1px solid gold;
         margin-left: -1.4rem;
       }
     }
@@ -504,16 +502,16 @@ nav {
               width: 40px;
               height: 40px;
               border-radius: 50%;
-              border: 1px solid #8fc460;
+              border: 1px solid gold;
               display: grid;
               place-items: center;
               margin: auto;
 
               .fa-phone {
                 transform: rotate(90deg);
-                color: #8fc460;
-                text-shadow: -1px 0 #8fc460, 0 1px #8fc460, 1px 0 #8fc460,
-                  0 -1px #8fc460;
+                color: gold;
+                text-shadow: -1px 0 gold, 0 1px gold, 1px 0 gold,
+                  0 -1px gold;
               }
             }
 
@@ -521,13 +519,13 @@ nav {
               width: 40px;
               height: 40px;
               border-radius: 50%;
-              border: 1px solid #8fc460;
+              border: 1px solid gold;
               display: grid;
               place-items: center;
               margin: 0.8rem;
 
               .fa-plus {
-                color: #8fc460;
+                color: gold;
               }
             }
           }
@@ -638,9 +636,9 @@ nav {
         button {
           width: 20rem;
           height: 4rem;
-          color: #8fc460;
+          color: gold;
           background: transparent;
-          border: 1px solid #8fc460;
+          border: 1px solid gold;
           font-weight: bolder;
           font-size: 1rem;
         }
@@ -681,13 +679,13 @@ nav {
 
           .consult_link {
             width: 150px;
-            border-bottom: 1px solid #8fc460;
+            border-bottom: 1px solid gold;
           }
 
           .consult_link a {
             text-decoration: none;
             font-size: 1rem;
-            color: #8fc460;
+            color: gold;
             font-family: "Playfair Display", serif;
             font-weight: 700;
           }
@@ -697,7 +695,7 @@ nav {
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            border: 1px solid #8fcd65;
+            border: 1px solid gold;
             margin-left: -1.4rem;
           }
         }
@@ -723,6 +721,7 @@ nav {
       }
 
       button {
+        margin-top: 2rem;
         float: right;
         cursor: pointer;
         width: 5rem;
@@ -743,6 +742,7 @@ nav {
 }
 
 .footer {
+  margin-top: 12rem;
   max-width: 100vw;
   min-height: 40rem;
   background: var(--primary-color);
